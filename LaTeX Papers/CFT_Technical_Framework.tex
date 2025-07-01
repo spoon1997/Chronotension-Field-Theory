@@ -1,0 +1,97 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+\title{Chronotension Field Theory (CFT)\\Technical Framework \& Clarifications}
+\author{Luke W. Cann}
+\date{July 2025}
+
+\begin{document}
+\maketitle
+
+\section*{I. Core Field Structure}
+
+CFT models the universe as a continuous, time-fluid substrate characterized by two scalar fields:
+
+\begin{itemize}
+  \item \textbf{Viscosity Field} \( \eta(x, t) \): Governs resistance to time flow.
+  \item \textbf{Tension Field} \( \mathcal{T}(x, t) \): Governs structural gradients and directional pressure in the field.
+\end{itemize}
+
+These fields generate observable gravitational and cosmological phenomena through their spatial and temporal gradients.
+
+\subsection*{1.1 Viscosity Decay}
+\[
+\eta(t) = \eta_0 \cdot \exp\left[ -\left( \frac{t}{t_c} \right)^\beta \right]
+\]
+
+\subsection*{1.2 Tension Field Form}
+\[
+\mathcal{T}(x, t) = T_0 \cdot \exp\left[ -\left( \frac{r}{\alpha} \right)^\beta \right]
+\]
+
+\subsection*{1.3 Observer Time Remapping}
+\[
+t_{\text{obs}} = \int f(\eta(t)) \, dt \quad \text{with} \quad f(\eta) = \frac{0.6}{1 + \eta} + \frac{0.4}{1 + e^{2(\eta - 0.5)}}
+\]
+
+\section*{II. Expansion Dynamics}
+
+\subsection*{2.1 Scale Factor Model}
+\[
+a(t) = a_0 \cdot \exp\left[ f(t; \eta(t)) \right]
+\]
+
+\subsection*{2.2 BAO Ruler Derivation}
+\[
+r_s^{\text{CFT}} = \int_0^{t_{\text{drag}}} \frac{c_s}{\sqrt{1 + \eta(t)}} \, dt \approx 94.4 \, \text{Mpc}
+\]
+
+\section*{III. Quantum Chronotension (C-QFT)}
+
+\subsection*{3.1 Lagrangian}
+\[
+\mathcal{L}_{\text{CFT}} = -\frac{1}{2} \mathcal{T}(x,t) \, \partial^\mu \eta \, \partial_\mu \eta - V(\eta) + \mathcal{L}_{\text{int}}(\eta, \chi)
+\]
+
+\subsection*{3.2 Modified Uncertainty Principle}
+\[
+\Delta x \cdot \Delta(\partial_x \eta) \geq \hbar_\eta
+\]
+
+\subsection*{3.3 Chronode Dynamics}
+Chronodes are soliton-like solutions of the \( \eta \) field. Interactions are governed by tension energy and conserved \( \eta \)-flux.
+
+\section*{IV. Effective Geometry \& Observational Predictions}
+
+\subsection*{4.1 Effective Metric}
+\[
+ds^2 = \frac{1}{\eta(x,t)} dt^2 - a(t)^2 dx^2
+\]
+
+\subsection*{4.2 Stress-Energy Tensor}
+\[
+T^{\mu\nu}_{\text{CFT}} = \partial^\mu \eta \, \partial^\nu \eta - g^{\mu\nu} \left( \frac{1}{2} \mathcal{T} (\partial \eta)^2 + V(\eta) \right)
+\]
+
+\subsection*{4.3 Gravitational Lensing}
+Deflection arises from \( \eta(x,t) \) curvature acting like a refractive index gradient, bypassing conventional spacetime curvature.
+
+\section*{V. Falsifiability and Predictions}
+
+\subsection*{5.1 Falsification Criteria}
+\begin{itemize}
+  \item H(z) mismatch after remapping
+  \item BAO peak unmatchable without dark matter
+  \item Failure to match SN Ia residuals post-remap
+\end{itemize}
+
+\subsection*{5.2 Unique Predictions}
+\begin{itemize}
+  \item Mid-\( \ell \) CMB suppression (\( \ell \approx 30-200 \))
+  \item Observable redshift anomalies via \( \eta \)-field flow
+  \item Non-GR lensing profiles in high-viscosity zones
+\end{itemize}
+
+\end{document}
