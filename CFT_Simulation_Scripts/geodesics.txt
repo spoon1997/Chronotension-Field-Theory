@@ -1,0 +1,31 @@
+# Geodesic solver for effective metric
+import numpy as np
+from scipy.integrate import solve_ivp
+import matplotlib.pyplot as plt
+
+def eta(x, t):
+    eta0 = 5
+    tc = 3
+    beta = 1.2
+    return eta0 * np.exp(-(t / tc)**beta)
+
+def metric(x, t):
+    return np.array([[1 / eta(x, t), 0], [0, -1]])
+
+def geodesic_eq(tau, Y):
+    x, t, dx_dtau, dt_dtau = Y
+    d_eta_dx = 0
+    d_eta_dt = -((5 / 3) * (1.2 / 3) * (t / 3)**(0.2)) * np.exp(-(t / 3)**1.2)
+    d2x_dtau2 = 0
+    d2t_dtau2 = -0.5 * d_eta_dt * (dt_dtau)**2 / eta(x, t)**2
+    return [dx_dtau, dt_dtau, d2x_dtau2, d2t_dtau2]
+
+Y0 = [0, 0.1, 1, 1]
+sol = solve_ivp(geodesic_eq, [0, 10], Y0, t_eval=np.linspace(0, 10, 500))
+
+plt.plot(sol.t, sol.y[0])
+plt.xlabel('τ')
+plt.ylabel('x(τ)')
+plt.title('Geodesic path in CFT metric')
+plt.grid()
+plt.show()

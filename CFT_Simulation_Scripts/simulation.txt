@@ -1,0 +1,24 @@
+# Numerical simulation of η(x, t) and T(x, t)
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-10, 10, 500)
+t = np.linspace(0, 10, 200)
+X, T = np.meshgrid(x, t)
+
+eta0 = 5
+tc = 3
+beta = 1.2
+eta = eta0 * np.exp(-(T / tc)**beta)
+
+Tension0 = 1.0
+alpha = 2.0
+gamma = 1.5
+tension = Tension0 * np.exp(-(X / alpha)**gamma)
+
+plt.imshow(eta, aspect='auto', extent=[x.min(), x.max(), t.max(), t.min()])
+plt.colorbar(label='η(x,t)')
+plt.title('Viscosity Field η(x,t)')
+plt.xlabel('x')
+plt.ylabel('t')
+plt.show()

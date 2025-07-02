@@ -1,0 +1,26 @@
+# Symbolic metric derivation
+import sympy as sp
+
+x, t = sp.symbols('x t')
+eta = sp.Function('eta')(x, t)
+
+# Define metric: ds² = 1/η dt² - a(t)² dx²
+g = sp.Matrix([[1/eta, 0],
+               [0, -1]])
+
+g_inv = g.inv()
+det_g = g.det()
+
+# Christoffel symbols
+Gamma = {}
+for i in range(2):
+    for j in range(2):
+        for k in range(2):
+            sym_sum = 0
+            for l in range(2):
+                sym_sum += g_inv[i, l] * (sp.diff(g[l, j], [x, t][k]) +
+                                          sp.diff(g[l, k], [x, t][j]) -
+                                          sp.diff(g[j, k], [x, t][l]))
+            Gamma[(i, j, k)] = 0.5 * sym_sum
+
+Gamma
