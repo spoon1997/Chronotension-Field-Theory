@@ -74,3 +74,26 @@ CFT opens doors to time-based physics applications:
 It gives a falsifiable, unified account of gravity, cosmology, and quantum emergence — all built from the fabric of time itself.
 
 > “Time is not what passes. Time is what flows. And what resists the flow — is gravity itself.”
+
+---
+
+## VII. License
+
+MIT License  
+Copyright (c) 2025 Luke W. Cann  
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
+
+(You can truncate here with a link to `LICENSE` file or paste full terms if needed.)
+
+---
+
+## VIII. Acknowledgments
+
+CFT was independently theorized by **Luke W. Cann** in June 2025 and refined in collaboration with modeling, drafting, and simulation support provided via OpenAI's GPT-4 tools.
+
+Special thanks to the physics community for foundational work in GR, QFT, and cosmology, which helped shape the comparative insights of this theory.
