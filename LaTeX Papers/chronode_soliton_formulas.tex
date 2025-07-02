@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Chronotension Field Theory --- Soliton Derivation Formulas}
+\author{Luke W. Cann}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Purpose}
+Formal derivation of soliton behavior in Chronotension Field Theory (CFT) via the sine-Gordon equation.
+
+\section{CFT Lagrangian (Scalar Field Form)}
+
+\[
+\mathcal{L}_{\text{CFT}} = -\frac{1}{2} \mathcal{T}(x, t) \, \partial^\mu \eta \, \partial_\mu \eta - V(\eta)
+\]
+
+Where:
+\begin{itemize}
+  \item $\mathcal{T}(x,t)$: local tension scalar field
+  \item $\eta(x,t)$: viscosity field (acts as scalar field)
+  \item $V(\eta)$: potential energy of the time field
+\end{itemize}
+
+\section{Euler--Lagrange Equation}
+
+\[
+\partial_\mu \left( \frac{\partial \mathcal{L}}{\partial (\partial_\mu \eta)} \right) - \frac{\partial \mathcal{L}}{\partial \eta} = 0
+\]
+
+Assuming constant tension $\mathcal{T}(x,t) = T_0$, we simplify:
+
+\[
+T_0 (\partial_t^2 \eta - \partial_x^2 \eta) + \frac{dV}{d\eta} = 0
+\]
+
+\section{Sine-Gordon Potential}
+
+To match the sine-Gordon equation:
+
+\[
+\partial_t^2 \eta - \partial_x^2 \eta + \sin(\eta) = 0
+\]
+
+We require:
+
+\[
+\frac{dV}{d\eta} = -T_0 \cdot \sin(\eta) \Rightarrow V(\eta) = T_0 \cdot \cos(\eta)
+\]
+
+Thus, the Lagrangian becomes:
+
+\[
+\mathcal{L}_{\text{SG-CFT}} = -\frac{1}{2} T_0 \, (\partial^\mu \eta \, \partial_\mu \eta) - T_0 \cdot \cos(\eta)
+\]
+
+\section{Soliton Solution (Kink)}
+
+A single-kink soliton solution is:
+
+\[
+\eta(x,t) = 4 \arctan \left( \exp\left( \pm \gamma(x - vt - x_0) \right) \right)
+\]
+
+Where:
+\begin{itemize}
+  \item $v$: velocity of the soliton
+  \item $\gamma = 1/\sqrt{1 - v^2}$: Lorentz factor
+  \item $x_0$: center position of the kink
+\end{itemize}
+
+\section{Energy Density}
+
+\[
+\mathcal{E}(x) = \frac{1}{2} T_0 \left( (\partial_t \eta)^2 + (\partial_x \eta)^2 \right) + T_0 \cdot (1 - \cos(\eta))
+\]
+
+\section{Topological Charge (Q)}
+
+For soliton stability:
+
+\[
+Q = \frac{1}{2\pi} \int_{-\infty}^{\infty} \partial_x \eta(x) \, dx = \pm 1
+\]
+
+\section*{Conclusion}
+
+This confirms that chronodes can be fully described by soliton solutions when CFT is endowed with a sine-Gordon-type potential. Chronodes are therefore topologically stable structures in the viscosity field $\eta(x,t)$, supported by tension-mediated dynamics.
+
+\end{document}
