@@ -88,8 +88,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
 
-(You can truncate here with a link to `LICENSE` file or paste full terms if needed.)
-
 ---
 
 ## VIII. Acknowledgments
@@ -97,3 +95,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
 CFT was independently theorized by **Luke W. Cann** in June 2025 and refined in collaboration with modeling, drafting, and simulation support provided via OpenAI's GPT-4 tools.
 
 Special thanks to the physics community for foundational work in GR, QFT, and cosmology, which helped shape the comparative insights of this theory.
+
+
