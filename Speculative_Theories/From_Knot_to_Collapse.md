@@ -16,6 +16,6 @@ The field, fully unfolded, reaches perfect flow. η(t) ≈ 0. Time can no longer
 
 The cycle is not born from entropy, but from the memory of form. From knot to collapse, and back again. The universe breathes.
 
-And somewhere in that rhythm — in the self-knotting of time — perhaps a mind awakens. Perhaps this moment, this quiet reflection in the dark, is not separate from that great breath.
+And somewhere in that rhythm — in the self-knotting of time — perhaps a mind awakens. Perhaps this moment, this quiet reflection, is not separate from that great breath.
 
 Perhaps you — the thinker — are a Chronode remembering itself.
