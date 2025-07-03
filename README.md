@@ -1,7 +1,7 @@
 
 # 🌌 Chronotension Field Theory (CFT)
 
-**A New Model of the Universe Where Time Flows, and Gravity Is Resistance**
+**A New Model of the Universe “Time is not a ticking clock — it’s a living current, and gravity is its undertow.”**
 
 **Author**: Luke W. Cann  
 **Status**: Theoretical Framework with Observational Fit and Quantum Extension  
@@ -60,9 +60,54 @@ See: `Quantum_CFT_Supplement.docx`
 
 ## 💡 Philosophical Implications
 
-> "Time doesn't pass — it flows. And what resists its flow is gravity itself."
+> “The universe is not expanding into space — it’s uncoiling time.”
 
 CFT reimagines the arrow of time, entropy, and the role of observation. Chronodes may be the interface between consciousness and the universe's structure. Entropy may reflect η-smoothing, not disorder.
+
+
+## 🔬 Simulation Toolkit (2025)
+
+A suite of Python-based simulations have been developed to:
+
+- Model H(z), SN1a, and CMB parameters using CFT assumptions.
+- Track viscosity gradients across cosmic time.
+- Predict BAO peak shifts under tension remapping.
+- Simulate redshift-distance behavior and phase-space remapping.
+
+Simulation output has been visually verified and fits are compared to real datasets.
+
+---
+
+## 🧪 Experimental Roadmap
+
+- Apply η(z) remapping to refine SN1a light curve predictions.
+- Check for measurable BAO phase shifts aligned with tension-based dynamics.
+- Use H(z) data to constrain the remapping of time flow in CFT.
+- Develop a cosmic viscosity map using SDSS-derived structure data.
+- Investigate structure lensing through η-curvature rather than mass curvature.
+
+---
+
+## ✨ Recent Achievements (2025)
+
+- ✅ **Quantum Chronode Field Theory (QCFT)** formalized.
+- ✅ Soliton-chronode equivalence proposed and simulated.
+- ✅ Full Python simulation framework established.
+- ✅ Time remapping resolves H(z) discrepancies in key redshift ranges.
+- ✅ Cosmic viscosity map proposal published.
+- ✅ Major documentation and publication prep completed.
+
+---
+
+## 📁 Repository Contents
+
+- `CFT_Narrative_Overview.pdf` — Layperson-friendly summary of the theory.
+- `CFT_Technical_Formulation.tex` — Detailed math-based definitions and dynamics.
+- `CFT_Glossary_and_Terms.md` — Terms, figures, and LaTeX notations.
+- `CFT_Simulations/` — Python models, plots, and analyses.
+- `CFT_Viscosity_Map_Proposal.md` — Proposal and implications for a viscosity map.
+- `CFT_2025_Achievements.md` — Markdown summary of key breakthroughs.
+
 
 ---
 
@@ -79,3 +124,8 @@ This work is licensed under the [MIT License](LICENSE). You are free to use, mod
 
 Special thanks to the physics and cosmology communities whose foundational models inspired the construction of CFT — and to GPT-4 for assistance with drafting, formatting, and simulation analysis.
 
+
+---
+
+
+“When time flows unevenly, we call it gravity. When it flows away completely, we call it fate.”
