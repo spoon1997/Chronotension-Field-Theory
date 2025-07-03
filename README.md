@@ -45,19 +45,6 @@ See: `Quantum_CFT_Supplement.docx`
 
 ---
 
-## 📁 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `CFT_Complete_Paper.pdf` | Full theoretical document |
-| `CFT_Observational_Calculations.tex` | Fits for SN1a, BAO, and CMB |
-| `Quantum_CFT_Supplement.docx` | Quantum chronode model |
-| `CFT_Glossary.docx` | All terms, equations, and definitions |
-| `README.md` | This overview |
-| `LICENSE` | MIT License |
-
----
-
 ## 💡 Philosophical Implications
 
 > “The universe is not expanding into space — it’s uncoiling time.”
@@ -99,17 +86,6 @@ Simulation output has been visually verified and fits are compared to real datas
 
 ---
 
-## 📁 Repository Contents
-
-- `CFT_Narrative_Overview.pdf` — Layperson-friendly summary of the theory.
-- `CFT_Technical_Formulation.tex` — Detailed math-based definitions and dynamics.
-- `CFT_Glossary_and_Terms.md` — Terms, figures, and LaTeX notations.
-- `CFT_Simulations/` — Python models, plots, and analyses.
-- `CFT_Viscosity_Map_Proposal.md` — Proposal and implications for a viscosity map.
-- `CFT_2025_Achievements.md` — Markdown summary of key breakthroughs.
-
-
----
 
 ## 📄 License
 
