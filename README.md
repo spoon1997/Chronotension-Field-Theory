@@ -1,6 +1,8 @@
 
 # 🌌 Chronotension Field Theory (CFT)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15811104.svg)](https://doi.org/10.5281/zenodo.15811104)
+
 **A New Model of the Universe “Time is not a ticking clock — it’s a living current, and gravity is its undertow.”**
 
 **Author**: Luke W. Cann  
