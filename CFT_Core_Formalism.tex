@@ -1,0 +1,95 @@
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, geometry, graphicx, hyperref}
+\geometry{margin=1in}
+\title{Chronotension Field Theory (CFT): Core Formalism and Mathematical Framework}
+\author{Luke W. Cann}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{Abstract}
+Chronotension Field Theory (CFT) replaces spacetime geometry with a scalar temporal resistance field \(\eta(x,t)\). This document contains the foundational mathematics of CFT: field equations, Lagrangians, quantization rules, and effective curvature analogues. It is designed as a reference core for peer testing and long-term archival.
+
+\section{CFT Lagrangian and Field Equations}
+
+\subsection{Lagrangian Density}
+\begin{equation}
+\mathcal{L}_\eta = \frac{1}{2} \eta^2 ( -\dot{\eta}^2 + |\nabla \eta|^2 ) - V(\eta)
+\end{equation}
+
+\subsection{Potential Term}
+\begin{equation}
+V(\eta) = \lambda (\eta^2 - 1)^2
+\end{equation}
+
+\subsection{Euler-Lagrange Field Equation}
+\begin{equation}
+\eta^2 (\ddot{\eta} - \nabla^2 \eta) + 3\eta ( -\dot{\eta}^2 + |\nabla \eta|^2 ) + \frac{dV}{d\eta} = 0
+\end{equation}
+
+\section{Stress-Energy and Hamiltonian Density}
+
+\subsection{Stress-Energy Tensor}
+\begin{equation}
+T^{\mu \nu} = \eta^2 \partial^\mu \eta \partial^\nu \eta - g^{\mu \nu} \mathcal{L}_\eta
+\end{equation}
+
+\subsection{Hamiltonian Density}
+\begin{equation}
+\mathcal{H}_\eta = \frac{1}{2} \eta^2 |\nabla \eta|^2 - \frac{3}{2} \eta^2 \dot{\eta}^2 + V(\eta)
+\end{equation}
+
+\section{Quantum Chronotension Field Theory (QCFT)}
+
+\subsection{Quantization Rules}
+\begin{align}
+\hat{\eta}(x,t), \quad \hat{\pi}_\eta(x,t) &= -\eta^2 \dot{\eta} \\
+[\hat{\eta}(x), \hat{\pi}_\eta(y)] &= i\hbar \delta(x-y)
+\end{align}
+
+\section{Chronode Equation (Solitonic Solutions)}
+\begin{equation}
+\eta^2 \eta'' + 3\eta (\eta')^2 = \frac{dV}{d\eta}
+\end{equation}
+
+\section{Effective Curvature and Geodesics}
+
+\subsection{Effective Ricci-like Curvature}
+\begin{equation}
+R_{\text{eff}} \sim -\nabla^2 \eta
+\end{equation}
+
+\subsection{Geodesic Deviation via \(\eta\)}
+\begin{equation}
+\frac{d^2 x^\mu}{d\tau^2} \sim \partial^\mu \eta
+\end{equation}
+
+\subsection{Effective Metric (Suggested)}
+\begin{equation}
+ds^2 = -\frac{1}{\eta^2} dt^2 + dx^2 + dy^2 + dz^2
+\end{equation}
+
+\section{Cosmological Implications}
+
+\subsection{Observed Redshift Remapping}
+\begin{equation}
+z_{\text{actual}} \approx \eta(z) - 1
+\end{equation}
+
+\subsection{Distance Modulus Correction}
+\begin{equation}
+\mu_{\text{CFT}} = \mu_{\text{obs}} + 5 \log_{10} (\eta(z))
+\end{equation}
+
+\subsection{BAO Rescaling}
+\begin{equation}
+d_{\text{CFT}} = d_{\text{GR}} / \eta(z)
+\end{equation}
+
+\section{Final Notes}
+This document formalizes the core equations of Chronotension Field Theory for publication, peer validation, and simulation reference. Experimental validation focuses on SN1a light curve stretch, clock drift in low-\(\eta\) zones, BAO compression, and CMB amplitude restoration.
+
+\end{document}
