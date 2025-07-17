@@ -34,13 +34,6 @@ This file contains speculative insights derived from Chronotension Field Theory 
 
 ---
 
-### 🗂 Suggested GitHub Folder:
-Place this file in:
-
-```
-CFT/Extra/Speculative_Insights/Observer_Velocity_Reframe.md
-```
-
 More insights of this nature can be added here as CFT’s philosophy and mathematics evolve.
 
 — *Luke W. Cann*  
