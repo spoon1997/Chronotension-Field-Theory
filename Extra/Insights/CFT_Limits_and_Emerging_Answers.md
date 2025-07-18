@@ -22,7 +22,7 @@ A key next frontier. QCFT (Quantum Chronotension Field Theory) begins to sketch 
 - Wavefunctions could be localized by η-potential wells.
 - Minimal coupling might be done via η²-weighted Lagrangians.
 
-→ **Ongoing work:** The user is currently developing this coupling and expects QCFT to model particles as solitonic η structures.
+→ **Ongoing work:** CFT is currently developing this coupling and expects QCFT to model particles as solitonic η structures.
 
 ---
 
