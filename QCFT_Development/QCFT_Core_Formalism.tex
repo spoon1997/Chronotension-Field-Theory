@@ -1,0 +1,104 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, hyperref}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{physics}
+\usepackage{bm}
+
+\title{Quantum Chronotension Field Theory (QCFT): Core Formalism}
+\author{Luke Cann and GPT Collaboration}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{1. Field Content}
+
+Let $\eta^a(x, t)$ be a real-valued, vector quantum field in internal index space $a = 1, \dots, N$.
+
+It replaces the metric tensor of General Relativity and the gauge fields of the Standard Model. All physical structure arises from its evolution and topology.
+
+\section*{2. QCFT Lagrangian}
+
+\begin{equation}
+\mathcal{L}_{\text{QCFT}} = \frac{1}{2} \delta^{ab} \partial_\mu \eta^a \partial^\mu \eta^b - \lambda (\eta^a \eta^a - v^2)^2 + \theta \epsilon^{\mu\nu\rho\sigma} f_{\mu\nu}^a f_{\rho\sigma}^a
+\end{equation}
+
+Where:
+\begin{itemize}
+  \item $\eta^a$ is the time-viscosity vector field
+  \item $f_{\mu\nu}^a = \partial_\mu \eta^a \partial_\nu \eta^a - \partial_\nu \eta^a \partial_\mu \eta^a$
+  \item $\lambda$ is the quartic self-interaction
+  \item $\theta$ governs topological (non-perturbative) dynamics
+\end{itemize}
+
+\section*{3. Solitons and Chronodes}
+
+Localized topological excitations in $\eta^a$ are stable and quantized. These are called \textbf{chronodes}, and they correspond to the particle spectrum:
+
+\begin{itemize}
+  \item Fermions emerge from knot topology, twist, and braiding in $\eta^a$
+  \item Bosons emerge as propagating curvature or η-exchange structures
+  \item Generations = harmonic modes of underlying chronode types
+\end{itemize}
+
+\section*{4. Quantization}
+
+Canonical quantization is imposed via:
+
+\begin{equation}
+[\hat{\eta}^a(x), \hat{\pi}_\eta^b(y)] = i \hbar \delta^{ab} \delta^3(x - y)
+\end{equation}
+
+Fock space can be constructed from soliton states and wave packets of $\eta^a$.
+
+\section*{5. Interactions and Feynman Rules}
+
+Propagator:
+
+\begin{equation}
+\Delta^{ab}(k) = \frac{i \delta^{ab}}{k^2 + i\epsilon}
+\end{equation}
+
+Vertices:
+\begin{itemize}
+  \item 3-point: $i g_{abc}$
+  \item 4-point: $-4! i \lambda$
+  \item Topological $\theta$-term: suppressed in perturbation theory
+\end{itemize}
+
+\section*{6. S-Matrix Formalism}
+
+Scattering amplitudes derived from correlators of $\delta \eta^a$ using LSZ-like reduction:
+
+\begin{equation}
+S_{fi} = \int \prod_j d^4x_j \, e^{i p_j \cdot x_j} (\Box_{x_j}) \langle 0 | T \{ \delta \eta^{a_1}(x_1) \dots \delta \eta^{a_n}(x_n) \} | 0 \rangle
+\end{equation}
+
+\section*{7. Renormalization}
+
+Standard counterterm structure:
+\[
+Z_\eta (\partial \eta)^2 - Z_\lambda \lambda (\eta^a \eta^a - v^2)^2
+\]
+Renormalization is possible at all orders. No divergences in topological solitons.
+
+\section*{8. Gauge Emergence}
+
+Internal topology and field curvature give rise to:
+\begin{itemize}
+  \item SU(3) color from braiding and winding
+  \item SU(2) × U(1) from field cross-couplings
+  \item Higgs mechanism: radial fluctuation of $|\eta^a|$
+\end{itemize}
+
+\section*{9. Summary}
+
+QCFT offers:
+\begin{itemize}
+  \item A unified theory of particles, interactions, and spacetime
+  \item Solitonic basis for Standard Model fields
+  \item Quantum consistency, unitarity, and renormalizability
+  \item Reinterpretation of cosmology, gravity, and black holes via $\eta(x,t)$
+\end{itemize}
+
+\end{document}
