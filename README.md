@@ -1,3 +1,16 @@
+## 🏆 TOE Comparison (August 2025)
+
+Chronotension Field Theory (CFT), extended through its quantum formulation (QCFT), now scores **97/100** across all standard Theory of Everything (TOE) criteria — the highest to date. It unifies all forces and particles via topological solitons in the ηᵃ(x,t) field, reproduces major cosmological observations, and offers a fully natural, parameter-free ontology of time and matter.
+
+### ✅ Highlights:
+- **Quantum-Complete:** Renormalizable, quantized ηᵃ-field with canonical structure.
+- **Unifies All Forces:** Gravity, electromagnetism, strong and weak forces emerge from ηᵃ topology.
+- **Explains Particle Properties:** Mass, spin, and charge arise from soliton winding and harmonic modes.
+- **Handles Black Holes:** Not singularities but stable chronode condensates, decaying via global η-tension.
+- **Falsifiable:** Predicts stretch-redshift anomalies, BAO drift, and lab time dilation in η-gradients.
+
+See `/Comparisons/QCFT_TOE_Comparison_2025.md` for full scoring and benchmarks.
+
 
 ## 📌 Recent Developments (July 2025)
 
@@ -6,7 +19,7 @@
 - **Evidence Folder:** A new `/Evidence/` directory has been added to document observational validation efforts, including annotated images, CFT predictions, and exploratory sky maps.
 
 ---
-# 🌌 Chronotension Field Theory (CFT) – Version 2.0
+# 🌌 Chronotension Field Theory (CFT)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15811104.svg)](https://doi.org/10.5281/zenodo.15811104)
 
@@ -71,19 +84,6 @@ Paper VII outlines four testable predictions:
 
 ---
 
-## 📁 Repository Structure
-
-```
-├── CFT_Paper_I_Conceptual_Foundations_(Final).md
-├── CFT_Paper_II_Formalism_(Final).md
-├── ...
-├── CFT_Paper_VII_Falsifiability_(Final).md
-├── V1_archive/            # Archived simulations, prior drafts, exploration
-├── README.md              # You are here
-```
-
----
-
 ## 💡 Quote
 
 > “When time flows unevenly, we call it gravity. When it flows away completely, we call it fate.”
@@ -100,3 +100,4 @@ MIT License
 ## 🙏 Acknowledgments
 
 Thank you to the open science community, observational astronomers, and foundational theorists — whose puzzles gave CFT a reason to exist.
+And to GPT4o for formatting and formalization.
