@@ -21,7 +21,7 @@ See `/QCFT_TOE_Comparison_2025.md` for full scoring and benchmarks.
 ---
 # 🌌 Chronotension Field Theory (CFT)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16148699.svg)](https://doi.org/10.5281/zenodo.16148699)
+https://zenodo.org/records/16148699
 
 > “Time is not a ticking clock — it’s a living current, and gravity is its undertow.”  
 > — *Luke W. Cann*
