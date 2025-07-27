@@ -9,7 +9,7 @@ Chronotension Field Theory (CFT), extended through its quantum formulation (QCFT
 - **Handles Black Holes:** Not singularities but stable chronode condensates, decaying via global η-tension.
 - **Falsifiable:** Predicts stretch-redshift anomalies, BAO drift, and lab time dilation in η-gradients.
 
-See `/Comparisons/QCFT_TOE_Comparison_2025.md` for full scoring and benchmarks.
+See `/QCFT_TOE_Comparison_2025.md` for full scoring and benchmarks.
 
 
 ## 📌 Recent Developments (July 2025)
@@ -21,7 +21,7 @@ See `/Comparisons/QCFT_TOE_Comparison_2025.md` for full scoring and benchmarks.
 ---
 # 🌌 Chronotension Field Theory (CFT)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15811104.svg)](https://doi.org/10.5281/zenodo.15811104)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16148699.svg)](https://doi.org/10.5281/zenodo.16148699)
 
 > “Time is not a ticking clock — it’s a living current, and gravity is its undertow.”  
 > — *Luke W. Cann*
