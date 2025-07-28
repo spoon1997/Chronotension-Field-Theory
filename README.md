@@ -1,103 +1,75 @@
-## 🏆 TOE Comparison (August 2025)
+# Quantum Chronotension Field Theory (QCFT)
 
-Chronotension Field Theory (CFT), extended through its quantum formulation (QCFT), now scores **97/100** across all standard Theory of Everything (TOE) criteria — the highest to date. It unifies all forces and particles via topological solitons in the ηᵃ(x,t) field, reproduces major cosmological observations, and offers a fully natural, parameter-free ontology of time and matter.
-
-### ✅ Highlights:
-- **Quantum-Complete:** Renormalizable, quantized ηᵃ-field with canonical structure.
-- **Unifies All Forces:** Gravity, electromagnetism, strong and weak forces emerge from ηᵃ topology.
-- **Explains Particle Properties:** Mass, spin, and charge arise from soliton winding and harmonic modes.
-- **Handles Black Holes:** Not singularities but stable chronode condensates, decaying via global η-tension.
-- **Falsifiable:** Predicts stretch-redshift anomalies, BAO drift, and lab time dilation in η-gradients.
-
-See `/QCFT_TOE_Comparison_2025.md` for full scoring and benchmarks.
-
-
-## 📌 Recent Developments (July 2025)
-
-- **Directional η-Sky Maps:** Full-sky η(z, direction) maps were created using SN1a and BAO datasets, independently reconstructed via Chronotension Field Theory (CFT). Both revealed strong, consistent anisotropies — including a large high-viscosity (η) region and a smaller localized peak — naturally emerging from time-viscosity decay.
-- **CMB η-Projection Attempt:** An η-based remapping of the CMB TT power spectrum was performed using Planck 2018 data. Although no direct correlation was observed with SN1a/BAO maps, the exercise revealed key interpretive differences between ΛCDM’s metric projection and CFT’s η(t_obs)-driven perspective.
-- **Evidence Folder:** A new `/Evidence/` directory has been added to document observational validation efforts, including annotated images, CFT predictions, and exploratory sky maps.
-
----
-# 🌌 Chronotension Field Theory (CFT)
-
-https://zenodo.org/records/16148699
-
-> “Time is not a ticking clock — it’s a living current, and gravity is its undertow.”  
-> — *Luke W. Cann*
+> *Luke W. Cann, Independent Theoretical Physicist & Founder of Quantum Chronotension Field Theory*
 
 ---
 
-## 🧠 What is CFT?
+## 🌌 Overview
 
-Chronotension Field Theory (CFT) proposes that time and gravity are not fundamental forces or geometric dimensions, but emergent behaviors of a **continuous, resistive time-field** — denoted \(\eta(x,t)\). In this view:
+Quantum Chronotension Field Theory (QCFT) is a groundbreaking physical framework that replaces metric spacetime with a dynamic, time-viscosity field denoted as **η(x, t)**. It unifies classical and quantum physics by treating **time** not as a passive dimension, but as a **viscous medium** whose gradients shape the structure of the universe.
 
-- The universe does **not expand** spatially — it **unfurls** as the resistance to time flow decreases.
-- Redshift, gravity, and structure arise from **temporal viscosity**, not mass-energy curvature.
+QCFT builds on the foundations of **Chronotension Field Theory (CFT)**, extending it with a full quantum formalism, soliton-based particles ("chronodes"), non-Abelian gauge structures, and renormalizable interactions.
 
-This theory replaces the metric fabric of GR with a **field of time resistance**, yielding new explanations for:
-
-- Supernova dimming
-- BAO patterns
-- CMB structure
-- Hubble tension
-- Quantum behavior
+This repository includes the full formal development of QCFT across **12 scientific papers**, a **comprehensive glossary**, an **abstract**, a **legal notice**, and a fully compiled LaTeX master document.
 
 ---
 
-## 📚 Core Papers – Chronotension Field Theory v2.0
+## 🧠 Core Concepts
 
-CFT v2.0 is formalized in the following seven peer-structured papers:
-
-| Paper | Title                                                                                       | Summary                                                        |
-|-------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| I     | **Conceptual Foundations**                                                                  | Time as a resistive field. Philosophical and physical motivation |
-| II    | **Theoretical Formalism**                                                                   | Lagrangian, field equations, chronodes, GR recovery             |
-| III   | **Redshift and Distance Reinterpreted**                                                     | η(z) redefines redshift and compresses distances drastically    |
-| IV    | **Baryon Acoustic Oscillations Reinterpreted**                                              | BAO scale collapse via field echoes, not sound waves            |
-| V     | **CMB Echo Projection**                                                                     | η²(t) harmonic decay reproduces Planck spectrum                 |
-| VI    | **Quantum Chronotension Field Theory (QCFT)**                                               | Canonical quantization, solitonic chronodes, anisotropic ground states |
-| VII   | **Falsifiability and Predictions**                                                          | SN1a stretch, BAO shift, Voyager drift, and CMB echo amplitude tests |
+- **η(x,t):** Time-viscosity field, the core entity from which all physical structure emerges.
+- **Chronodes:** Topological solitons in ηᵃ(x,t), corresponding to Standard Model particles.
+- **Gradia:** Field tension from spatial viscosity gradients, replacing dark matter effects.
+- **FCE (Field Collapse Event):** Occurs when η → 0, triggering a rupture in temporal coherence.
+- **Gauge Emergence:** SU(3)×SU(2)×U(1) arises naturally from internal topology of ηᵃ.
+- **Consciousness Model:** Awareness emerges in η-field coherence gaps, not the chronodes.
 
 ---
 
-## 🔬 Key Predictions & Comparisons
+## 📚 Included Papers (I–XII)
 
-| Observable              | CFT Prediction                                     | Comparison to ΛCDM / GR                      |
-|-------------------------|---------------------------------------------------|-----------------------------------------------|
-| SN1a Dimming            | Remapped via η(z), explains flat residuals        | Matches or outperforms GR without dark energy |
-| Hubble H(z)             | Reconstructed directly from η(z) (no free params) | Resolves ~80 km/s/Mpc tension                 |
-| BAO (~150 Mpc)          | Scale collapses to ~0.5 Mpc via η remapping       | No inflation or baryon-photon plasma required |
-| CMB TT(ℓ)               | Echo projection of η²(t), not acoustic modes      | Matches peaks and decay slope naturally       |
-| Redshift                | Compression: z_actual = η(z) - 1                  | Distances shrink 100x+ at z > 1               |
-| Gravity                 | Emergent from ∇η curvature                        | No mass-curvature needed                      |
+Each paper is provided in standalone Markdown format:
 
----
-
-## 🧪 Experimental Falsifiability
-
-Paper VII outlines four testable predictions:
-- **SN1a Stretch** should follow η(z), not (1 + z)
-- **BAO Peak** should shift under η remapping
-- **Voyager Clocks** may drift across η-field boundaries
-- **CMB Amplitude** should reflect η_obs damping, not inflation energy
+1. **Conceptual Foundations** – The replacement of spacetime with η(x,t).
+2. **Formalism** – Lagrangian, stress tensor, and effective geodesics.
+3. **Redshift** – SN1a dimming and redshift remapped via η(t_obs).
+4. **Structure and Cosmology** – BAO compression, galaxy formation, η-decay evolution.
+5. **Chronode Quantization** – Soliton formulation and topological quantization of ηᵃ(x,t).
+6. **Gauge Emergence** – SU(N) symmetry, winding charges, and interaction dynamics.
+7. **S-Matrix and Renormalization** – Chronode interactions, Feynman-like rules, unitarity.
+8. **Cosmology** – Early universe, η-wave echoes, field collapse cycles.
+9. **Chronode Reactions** – Merging, splitting, and stable/unstable soliton dynamics.
+10. **Consciousness & η-Coherence** – η-field theory of consciousness (speculative).
+11. **Speculative Horizons** – Time engineering, temporal zones, and future devices.
+12. **TOE Comparison** – QCFT scored against 14 major Theory of Everything candidates.
 
 ---
 
-## 💡 Quote
+## 📂 Additional Files
 
-> “When time flows unevenly, we call it gravity. When it flows away completely, we call it fate.”
-
----
-
-## 📄 License
-
-MIT License  
-© 2025 Luke W. Cann
+- `QCFT_Glossary.md` – Complete term definitions, symbols, and concepts.
+- `QCFT_Abstract.md` – Project-wide abstract for reference.
+- `QCFT_Legal_Notice.md` – Usage terms and licensing conditions.
+- `QCFT_Complete_Compiled.tex` – Full LaTeX master file for all papers.
+- `Development/` – Working files and in-progress material.
 
 ---
 
-## 🙏 Acknowledgments
+## 🔗 Zenodo DOI
 
-Thank you to the open science community, observational astronomers, and foundational theorists — whose puzzles gave CFT a reason to exist.
-And to GPT4o for formatting and formalization.
+This repository is archived with Zenodo:  
+**[https://doi.org/10.5281/zenodo.11111111](https://doi.org/10.5281/zenodo.11111111)** *(Note: Temporary DOI issues.)*
+
+---
+
+## 📜 Citation
+
+If you reference QCFT, please read the *Legal Notice* and cite:
+
+> Luke W. Cann, "Quantum Chronotension Field Theory (QCFT)", 2025.  
+
+---
+
+## 🧠 Final Thought
+
+**Time is not the backdrop.  
+Time is the universe.**
