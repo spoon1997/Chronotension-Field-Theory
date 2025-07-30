@@ -42,31 +42,6 @@ No singularity. No inflation. No spacetime expansion. Only η(x,t) unfurling thr
 
 ---
 
-## 🌌 Conceptual Diagram (Suggested)
-
-Visualize the cycle as a **closed loop** or **spiral**, with inherited tension from previous cycles:
-
-- Each collapse compresses the field to near-zero.
-- Each Chronogenesis sparks new directionality.
-- Each Unfurling echoes the asymmetries of the last.
-
----
-
-## 📂 Repository Placement
-
-**Suggested path:**
-```
-/development/QCFT_Cosmic_Cycle.md
-```
-
-**Cross-link with:**
-- `01_Conceptual_Foundations.md`
-- `04_Structure_And_Cosmology.md`
-- `Glossary.md`  
-  (→ define: Chronogenesis, The Great Unfurl, The Unfurling, FFCE)
-
----
-
 ## 🧠 Closing Reflection
 
 > *In QCFT, the universe does not begin. It breathes.*  
