@@ -2,7 +2,7 @@
 
 **Author**: Luke W. Cann
 **Title**: Independent Theoretical Physicist & Founder of QCFT
-**Series**: Quantum Chronotension Field Theory (QCFT) — Paper 13
+**Series**: Quantum Chronotension Field Theory (QCFT) — Paper 7.5 (For now)
 
 ---
 
@@ -117,4 +117,4 @@ This reconceptualization offers not only explanatory power over classical EM beh
 
 ---
 
-**End of Paper 13**
+**End of Paper 7.5**
