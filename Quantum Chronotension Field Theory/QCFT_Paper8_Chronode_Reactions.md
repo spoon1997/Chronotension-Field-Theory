@@ -100,3 +100,72 @@ Chronodes are the only actors in QCFT. All particle interactions — decays, sca
 
 **Time tension creates all things.  
 Chronodes merely ride the folds.**
+
+
+
+---
+
+## Theoretical Expansion
+
+### 1. Chronode as Fundamental Actor
+
+In QCFT, chronodes are not particles embedded in spacetime, but solitonic configurations that *structure* the ηᵃ field itself. They encode mass, spin, and charge through topological properties: winding, braiding, and torsion. This distinguishes them from pointlike particles or string modes — they are spatially extended, dynamically stable, and self-defining.
+
+Their role in reactions, structure formation, and field propagation makes them the foundational units of physical reality in QCFT. This paper begins the shift from treating chronodes as static excitations to dynamic agents of all observed quantum phenomena.
+
+### 2. Interaction Principles
+
+Chronode reactions are the η-field equivalent of particle physics interactions, but without exchanges or mediators. Merging, splitting, and braiding correspond to physical processes like decay, scattering, and spin-flip, but are modeled as transformations of ηᵃ topology.
+
+Braiding especially replaces the need for exchange bosons or virtual states. Paper 6 framed this as gauge emergence; here, it is reinterpreted as *field transformation continuity*. These principles ensure that chronode reactions follow deterministic, topologically constrained evolution paths.
+
+### 3. Scattering and Energy Exchange
+
+In QCFT, scattering amplitudes arise from the overlap of chronode configurations in space-time ηᵃ(x,t). The strength of the interaction depends on:
+
+- The volume of coherent overlap (how well their topologies intersect),
+- The η² tension (energy stored in their structure),
+- The phase alignment (interference between internal field modes).
+
+This replaces probabilistic quantum amplitudes with real, field-governed dynamical likelihoods. Gradia modulates the local interaction rate by enhancing field tension and η-wave coupling, as developed further in Paper 13.
+
+### 4. Field Conservation Rules
+
+Rather than relying on imposed conservation laws, QCFT derives them from the structural properties of ηᵃ:
+
+- **η² conservation** ensures energy stability and unitarity.
+- **Topological charge conservation** enforces quantum number invariance.
+- **Phase harmony** regulates interference, enabling or suppressing transitions.
+
+These rules guarantee the continuity of quantum behavior and mirror the conserved quantities of the Standard Model without needing imposed symmetry.
+
+### 5. Examples of Chronode Interactions
+
+The examples listed show that QCFT reproduces standard reactions using field-topological analogs. There are no virtual intermediaries — only structured field overlaps. Notably:
+
+- **e⁻ + e⁺ → γγ** involves cancellation of opposing U(1) windings, releasing η-waves.
+- **u + d → π⁺** combines chronodes with color-braided topologies.
+- **μ⁻ → e⁻ + ν** is modeled as a relaxation process along η-tension axes.
+
+Neutrino oscillation, gluon interactions, and weak transitions all reduce to harmonic or torsional shifts in ηᵃ configuration. This framework extends smoothly into Paper 9’s S-matrix construction.
+
+### 6. Mapping to Standard Model
+
+Every major quantum property has a QCFT counterpart:
+
+- **Color** = SU(3) braiding in ηᵃ,
+- **Charge** = Winding number in η⁰,
+- **Mass** = Resistance to field deformation (η-inertia),
+- **Weakness** = Transitions requiring η-coherence disruption.
+
+These mappings are not imposed but emerge naturally from ηᵃ topology. The theory thus recovers SM-like behavior from geometric constraints, not postulates.
+
+### 7. Open Questions
+
+QCFT opens numerous paths for exploration:
+
+- Can high-energy chronode collapse lead to observable field bursts (FCEs)?
+- Do ηᵃ asymmetries in the early universe resolve the matter–antimatter imbalance?
+- Can interference-based amplification of rare transitions lead to new phenomena (e.g., flavor-tuned reactions)?
+
+These directions intersect with Papers 10 (Field Collapse), 12 (Chronogeny), and 13 (Technology), each providing experimental or theoretical anchors.
