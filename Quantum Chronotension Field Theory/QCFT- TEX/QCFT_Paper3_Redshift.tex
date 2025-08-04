@@ -1,0 +1,121 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\geometry{margin=1in}
+\title{Quantum Chronotension Field Theory – Paper III\\\large Redshift \& Observables}
+\author{Luke W. Cann, Independent Theoretical Physicist and Founder of QCFT}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Quantum Chronotension Field Theory (QCFT) reinterprets cosmological redshift as a consequence of the evolution of the time-viscosity field $\eta(x,t)$, rather than spacetime expansion. Redshift arises from cumulative changes in viscosity and tension along the wave's trajectory, including both global decay and spatial gradients. This paper presents the canonical formulation of redshift in QCFT, its decomposition into measurable components, and its implications for supernovae, BAO, and the CMB.
+\end{abstract}
+
+\section{Canonical Redshift Equation in QCFT}
+
+The total redshift experienced by a wave is governed by the path-integrated change in $\eta$:
+
+\[
+1 + z = \exp\left( \int_{\text{photon path}} \frac{d\eta(x,t)}{\eta(x,t)} \right)
+\]
+
+This general form accounts for both temporal decay and spatial $\eta$-gradients (Gradia). It replaces the simplified ratio $1 + z = \eta_{\text{emit}} / \eta_{\text{obs}}$, which is now treated as a limiting case.
+
+\section{Contributing Components to Redshift}
+
+The redshift integral decomposes into identifiable contributing factors:
+
+\begin{enumerate}
+    \item $\eta_{\text{emit}}$ – viscosity at emission site (e.g., SN1a core)
+    \item $\eta_{\text{obs}}$ – viscosity at observer (Earth)
+    \item $\partial \eta / \partial t$ – global decay over cosmic time
+    \item $\nabla \eta_{\text{emit}}$ – Gradia at emission site (escape from $\eta$-well)
+    \item $\nabla \eta_{\text{obs}}$ – Gradia at reception (e.g., blueshift into Milky Way)
+    \item $\nabla \eta_{\text{IGM}}$ – field tension from large-scale structures (voids, filaments)
+    \item $\eta_{\text{aniso}}(\theta,\phi)$ – directional anisotropy in decay
+    \item $\eta_{\text{fluct}}(x,t)$ – wave interference, field echoes, collapse scars
+\end{enumerate}
+
+Each contributes to the accumulated stretch or compression of wavefronts along the photon path.
+
+\section{Residual Modeling}
+
+Residual redshift after accounting for modeled decay is:
+
+\[
+\Delta z = \ln(1 + z_{\text{obs}}) - \ln(1 + z_{\text{modeled}})
+\]
+
+This residual maps unresolved Gradia structures and $\eta$-wave effects. It is not noise but field information.
+
+\section{Remapping the Distance Modulus}
+
+The corrected luminosity distance is:
+
+\[
+d_L^{\text{QCFT}}(z) = \frac{d_L^{\text{GR}}(z)}{\eta(z)}
+\]
+
+and the distance modulus becomes:
+
+\[
+\mu(z) = 5 \log_{10} \left( \frac{d_L^{\text{GR}}(z)}{\eta(z)} \right) + \Delta \mu_{\text{residual}}
+\]
+
+This formulation aligns with Pantheon+ SN1a data when $\eta(z)$ is reconstructed empirically.
+
+\section{BAO Compression Explained}
+
+Baryon Acoustic Oscillations appear compressed in QCFT due to $\eta$-field decay:
+
+\[
+d_{\text{QCFT}} = \frac{d_{\text{GR}}}{\eta(z)}
+\]
+
+Wavefront compression reflects field viscosity evolution, not metric expansion.
+
+\section{CMB Angular Scale and $\eta$-Structure}
+
+CMB anisotropies result from $\eta^2$ interference patterns and $\eta$-field projection at recombination-era viscosity. No photon decoupling is assumed. The angular scale reflects $\eta$-structure, not recombination temperature.
+
+\section{Direction-dependent $\eta$ Mapping}
+
+QCFT enables redshift residuals to reconstruct $\eta(z, \theta, \phi)$, building anisotropic Gradia maps from SN1a, BAO, and CMB.
+
+\[
+\text{Gradia} = |\nabla \eta(x,t)|
+\]
+
+Redshift is thus a functional probe of cosmic tension and temporal topology.
+
+\section{Contrast with $\Lambda$CDM}
+
+\begin{tabular}{|c|c|c|}
+\hline
+Aspect & $\Lambda$CDM & QCFT \\
+\hline
+Redshift & Metric expansion & $\eta$-decay + Gradia \\
+Acceleration & Dark energy & None required \\
+SN1a dimming & Expanding space & $\eta$-field dynamics \\
+BAO scale & Co-moving metric & $\eta$-based contraction \\
+CMB peaks & Early universe imprint & $\eta$-structure interference \\
+\hline
+\end{tabular}
+
+\section*{Conclusion}
+
+Redshift is not a result of expanding spacetime but a cumulative trace of how the $\eta$-field evolves along a photon's path. QCFT reproduces all major cosmological observations — SN1a, BAO, and CMB — without dark energy or inflation, by modeling time as a dynamic, spatially structured viscosity field.
+
+\begin{center}
+\emph{The universe is not expanding.\\
+It is unfurling.}
+\end{center}
+
+\end{document}

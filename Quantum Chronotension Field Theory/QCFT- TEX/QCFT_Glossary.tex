@@ -1,0 +1,115 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=1in}
+\title{QCFT Glossary\\Quantum Chronotension Field Theory}
+\author{Luke W. Cann, Independent Theoretical Physicist and Founder of QCFT}
+\date{2025}
+
+\begin{document}
+\maketitle
+
+\section*{1. Field Structure}
+
+\begin{itemize}
+\item \textbf{$\eta(x,t)$} – Time-viscosity scalar field. Governs local rate of time passage. High $\eta$ $\Rightarrow$ slower time.
+\item \textbf{$\eta^a(x,t)$} – Quantized, vector-valued field with SU(N) symmetry. Supports braiding, solitons.
+\item \textbf{Gradia} ($|\nabla \eta|$) – Spatial gradient of $\eta$; perceived as gravitational tension.
+\item \textbf{$\eta^2$ Density} – Field energy: $\rho_{\eta} = \eta^a \eta^a$, conserved under ideal conditions.
+\item \textbf{Emergent Geometry} – Effective metric: $ds^2 = -\frac{dt^2}{\eta^2(x,t)} + \eta^2(x,t) dx^i dx^i$
+\end{itemize}
+
+\section*{2. Dynamics and Equations}
+
+\begin{itemize}
+\item \textbf{Canonical Redshift:} $1 + z = \exp\left( \int_{\text{path}} \frac{d\eta}{\eta} \right)$
+\item \textbf{Redshift Residuals:} $\Delta z = \ln(1 + z_{\text{obs}}) - \ln(1 + z_{\text{model}})$
+\item \textbf{Redshift Components (8):}
+  \begin{enumerate}
+    \item $\eta_{\text{emit}}$
+    \item $\eta_{\text{obs}}$
+    \item $\partial \eta / \partial t$
+    \item $\nabla \eta_{\text{emit}}$
+    \item $\nabla \eta_{\text{obs}}$
+    \item $\nabla \eta_{\text{IGM}}$
+    \item $\eta_{\text{aniso}}(\theta, \phi)$
+    \item $\eta_{\text{fluct}}(x,t)$
+  \end{enumerate}
+\item \textbf{Lagrangian:} $\mathcal{L} = \frac{1}{2} \delta^{ab} \partial_\mu \eta^a \partial^\mu \eta^b - \lambda (\eta^a \eta^a - v^2)^2 + \theta \epsilon^{\mu\nu\rho\sigma} f^a_{\mu\nu} f^a_{\rho\sigma}$
+\item \textbf{Collapse Threshold:} $\eta_{\text{crit}} \approx 10^{-4}$
+\end{itemize}
+
+\section*{3. Quantization and Interaction}
+
+\begin{itemize}
+\item \textbf{Chronode} – Solitonic knot in $\eta^a$. Encodes charge, spin, mass via topology.
+\item \textbf{Chronode Interactions:} Merge, split, braid, annihilate.
+\item \textbf{S-Matrix:} $S_{fi} = \langle \text{final} | \hat{U} | \text{initial} \rangle$, with $\hat{U} = \exp\left( -i \int \mathcal{H}_{\text{int}} dt \right)$
+\item \textbf{Gauge Emergence:}
+  \begin{itemize}
+  \item SU(3): $\eta^a$ braids (color)
+  \item SU(2): $\eta^a$ twists (weak)
+  \item U(1): Circulation in $\eta^0$ (charge)
+  \end{itemize}
+\item \textbf{Mass:} From $\eta^2$ compression and oscillation
+\end{itemize}
+
+\section*{4. Cosmology}
+
+\begin{itemize}
+\item \textbf{The Great Unfurl:} Universe emerges via $\eta$ decay
+\item \textbf{Chronogenesis:} First chronodes from interference
+\item \textbf{Field Collapse Events (FCEs):} Occur when $\eta < \eta_{\text{crit}}$; emit $\eta$-waves
+\item \textbf{Eta-Scars:} Residual structures from FCEs — explain voids, lensing anomalies
+\item \textbf{CMB:} Projection of early $\eta^2$ pattern, not relic radiation
+\end{itemize}
+
+\section*{5. Particle Mapping and Topology}
+
+\begin{itemize}
+\item \textbf{Charge} – U(1) winding
+\item \textbf{Spin} – Circulation twist (e.g. Möbius)
+\item \textbf{Color} – SU(3) braids
+\item \textbf{Generations} – Harmonics of same knot
+\item \textbf{Neutrinos} – Minimal-twist chronodes
+\item \textbf{Bosons} – Structured $\eta^a$ pulses
+\end{itemize}
+
+\section*{6. Experiments and Technology}
+
+\begin{itemize}
+\item \textbf{Gradia Clock Drift:} Clocks across $\nabla \eta$ detect local time rate shift
+\item \textbf{Residual Mapping:} $\eta(z, \theta, \phi)$ inferred from redshift
+\item \textbf{Lensing Deviations:} Gradia causes deflection even without mass
+\item \textbf{Eta-Wave Echoes:} Detected in pulsar timing / quantum phase shift
+\item \textbf{Chronotension Devices:}
+  \begin{itemize}
+    \item Temporal shielding
+    \item Eta-membranes (delay, energy)
+    \item Chronode lattices
+    \item Synthetic $\eta$-gap coherence (AI)
+  \end{itemize}
+\end{itemize}
+
+\section*{7. Abbreviations}
+
+\begin{tabular}{@{}ll@{}}
+\toprule
+Term & Meaning \\
+\midrule
+$\eta$ & Time-viscosity scalar field \\
+$\eta^a$ & Quantized SU(N) eta-field \\
+Gradia & $|\nabla \eta|$, spatial tension \\
+Chronode & Soliton (topological knot) \\
+FCE & Field Collapse Event \\
+$\eta_{\text{crit}}$ & Collapse threshold \\
+$\eta$-gap & Coherence zone between chronodes \\
+S-Matrix & Scattering formalism \\
+The Unfurl & Cosmogenesis via $\eta$ decay \\
+\bottomrule
+\end{tabular}
+
+\end{document}
