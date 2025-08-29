@@ -1,71 +1,107 @@
-# 🛠️ QCFT Development Directory
+# QCFT Development Notes – Definitions v2.1
 
-This directory contains active development resources, comparative analyses, experimental ideas, and extended tools for refining and applying **Quantum Chronotension Field Theory (QCFT)**.
-
-It is distinct from the finalized QCFT core papers, which are stored in the root and primary documentation areas. Here you'll find in-progress thought, extensions, reinterpretations, and auxiliary systems.
-
----
-
-## 📁 Folder Overview
-
-### `QCFT_Development/`
-> The working area for raw derivations, simulation tools, interactive notebooks, and in-progress theory expansions.
-
-Contents include:
-- Chronode topology drafts
-- Experimental η-field models
-- Simulation logs and parameter testing
+This file records **core fixes and clarifications** to QCFT’s formal structure.  
+It accompanies the development files and should be read before using older drafts.  
+Purpose: prevent contradictions, set clear definitions, and guide ongoing work.
 
 ---
 
-### `QCFT_Reinterpretations/`
-> A growing collection of markdown files that **re-express major physics concepts** through the lens of QCFT.
+## 🚧 High-Priority Fixes
 
-These files:
-- Compare mainstream physics ideas (e.g. gravity, inflation, dark matter) to their QCFT equivalents
-- Highlight why QCFT offers a **more physical, unified, and falsifiable alternative**
-- Serve as educational, outreach, and philosophical bridges to QCFT
-
----
-
-### `Evidence/`
-> A staging area for data visualizations, remapped observations, and comparative plots from SN1a, BAO, CMB, etc.
-
-This folder includes:
-- Full-sky η-maps from Pantheon+, DESI, and Planck data
-- Redshift remapping comparisons
-- Sky anisotropy overlays validating QCFT predictions
+### 1. η Redistribution vs. η² Conservation
+- **Locked law:**  
+  \[
+  \int \eta^a \eta^a \, d^3x = \text{const.}
+  \]
+- **Fix:** Replace “global η decays” with **redistribution by hogging**.  
+  - Galaxies and chronode clusters **pull in η locally**, leaving surrounding gaps thinner.  
+  - Redshift arises because photons cross these stretched gaps.  
+  - The universe **does not expand** — it remains finite and eternal, only its η-distribution evolves.
 
 ---
 
-### `Extra/`
-> Placeholder for philosophical extensions, speculative tools, or aesthetic representations of the theory.
-
-Examples:
-- η-field visual art
-- Theories of consciousness in η-gaps
-- Public-facing summaries
-
----
-
-### `Archive/`  
-> Backup copies of older experimental content or documentation no longer actively maintained but kept for reference.
+### 2. Scalar–Vector Mapping
+- **Fix:** Define the scalar η in the emergent metric as:
+  \[
+  \eta(x,t) \equiv \big\langle (\eta^a \eta^a)^{1/2} \big\rangle_{\Lambda}(x,t)
+  \]
+  where ⟨·⟩ averages over a physical window set by the observable scale.  
+- Ontology: **one field, two zoom levels** (vector fundamental, scalar effective).
 
 ---
 
-### `V1_archive/`
-> Complete archive of the original Chronotension Field Theory (CFT) pre-quantization.  
-Serves as a historical record of QCFT’s foundations.
+### 3. Chronode Profile
+- **Fix:** Chronodes are localized knots with extended halos.  
+- Minimal ansatz:
+  \[
+  \eta^a(r) = \eta_\infty^a + u^a\,F(r), \quad 
+  F(r) \sim r^{-p} e^{-r/\xi},\ \ p \in [0,1]
+  \]
+- Characteristic scale:  
+  \(\xi \sim [2\sqrt{\lambda} v]^{-1}\).  
+- This ensures scattering/overlap are well-defined without virtual particles.
 
 ---
 
-## 🧠 Purpose
-
-This directory is designed to **foster ongoing iteration, comparison, and dissemination** of QCFT as both a formal Theory of Everything and a paradigm-shifting model of time, matter, and structure.
-
-If you're here, you're probably ready to dig deeper.
+### 4. No Propagators ≠ No Kernels
+- QCFT has **no virtual particles**, but still uses Green kernels.  
+- **Fix:** Keep linearized kernels for scattering:
+  \[
+  \mathcal{D}_{ab}(\bar\eta) \, G^{bc}(x-y \mid \bar\eta) 
+  = \delta_a^{\ c}\,\delta^{(4)}(x-y)
+  \]
+- Amplitudes = overlap integrals of chronode sources linked by \(G\).
 
 ---
 
-> “The real structure was never in space. It was in time — waiting to be seen.”
+### 5. Photon Birefringence
+- **Fix:**  
+  - Cosmological propagation: **no birefringence** → \(c = 1/\eta\).  
+  - Strong-Gradia zones (near compact objects, sharp η textures): allow **tiny, localized** birefringence.  
+  - Parametrization:
+    \[
+    \frac{\delta c}{c} \;\approx\; 
+    \kappa\,\frac{(\hat n \cdot \nabla \eta)^2}{\eta^2 \Lambda_b^2}
+    \]
 
+---
+
+### 6. Local Lorentz Invariance
+- **Fix:** Explicit statement:  
+  - In slowly varying η patches, choose tetrads  
+    \( e^0{}_0=1/\eta, \ e^i{}_j=\eta \delta^i{}_j \).  
+  - Emergent metric is locally Minkowski.  
+  - Lorentz symmetry holds to \(\mathcal{O}(\nabla\eta)\).
+
+---
+
+## ✅ Secondary Consistency Polishes
+
+- **Redshift module:** future BAO/CMB work must **hold p = −1.15 ± 0.05 fixed**.  
+- **η-lens compression:** formalize angular Jacobian (<1) with **suppressed flux magnification**.  
+- **SMBH feedback:** define **Gradia Influence Radius (R\_GIR)** = radius where |∇η| drops below g\_min.
+
+---
+
+## 🧪 Self-Consistency Checks (to-do)
+
+1. Verify overlap of chronode halos gives finite interaction energy.  
+2. Show retarded Green kernel enforces causal signal speed \(c=1/\eta\).  
+3. Confirm η-lens compression is orthogonal to the redshift exponent \(p\) (no double counting).
+
+---
+
+## ⚖️ Plain-English Summary
+- Space is **finite and eternal** — it does not expand.  
+- η is **pulled inward by galaxies**, leaving stretched gaps in between.  
+- Light accumulates redshift by crossing these stretched gaps.  
+- Chronodes = knots with fuzzy edges; their halos explain overlap physics.  
+- No virtual particles, but Green kernels remain for rigor.  
+- Light usually has one speed, but near extreme objects polarizations can differ slightly.  
+- Locally, QCFT still looks like special relativity.
+
+---
+
+**Version:** Definitions v2.1  
+**Date:** 2025-08-29  
+**Status:** Active — all new work must adopt these fixes.
