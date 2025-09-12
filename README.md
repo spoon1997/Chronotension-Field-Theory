@@ -1,89 +1,91 @@
-# Quantum Chronotension Field Theory (QCFT)
+# QCFT – Current Status
 
-> *Luke W. Cann, Independent Theoretical Physicist & Founder of Quantum Chronotension Field Theory*
-
----
-
-## Overview
-
-Quantum Chronotension Field Theory (QCFT) is a unified physical framework that replaces spacetime with a dynamic, quantized **time-viscosity field**, denoted **η(x,t)**. All classical, quantum, and cosmological phenomena emerge from gradients in this field.
-
-In QCFT:
-- **Gravity becomes Gradia**: tension in η replaces curvature
-- **Particles become chronodes**: solitonic knots in ηᵃ
-- **Redshift becomes decay**: wavelength stretching arises from cumulative viscosity change
-- **Forces emerge topologically**: gauge symmetries arise from field braiding
-- **Consciousness arises from coherence**: awareness is modeled as structure in η-gaps
-
-The theory includes a complete Lagrangian formalism, quantized interaction mechanics, and a falsifiable cosmology — with no reliance on metric expansion, dark matter, or virtual particles.
+**Author:** Luke Cann – Independent Theoretical Physicist and Founder of QCFT  
+**Date:** September 2025  
 
 ---
 
-## Core Concepts
+## Core Framework
 
-- **η(x,t)** – Time-viscosity field; the fundamental medium of temporal structure
-- **Gradia** – ∇η; replaces gravity and dark matter as the source of field tension
-- **Chronodes** – Topological solitons in ηᵃ(x,t); correspond to all known particles
-- **Field Collapse Events (FCEs)** – Local η → 0; causes collapse, emission, and structure death
-- **Gauge Emergence** – SU(3)×SU(2)×U(1) arise from braids, twists, and η-topology
-- **Canonical Redshift** –  
-  \[
-  1 + z = \exp\left( \int_{\text{path}} \frac{d\eta(x,t)}{\eta(x,t)} \right)
-  \]
-- **η-Gap Consciousness** – Awareness arises from coherent interference zones between chronodes
+- **η-field:** Time is a physical viscosity field.  
+  - Scalar η(x,t) = coarse-grained cosmological limit.  
+  - Vector ηᵃ(x,t) (SU(N)) = fundamental quantum field.  
+- **Gradia:** Gravity is reinterpreted as tension in η,  
+  \(\text{Gradia} = |\nabla \eta|\).  
+- **Chronodes:** Particles are solitonic knots in ηᵃ.  
+- **Cann Shell:** Black holes stabilize as shells of maximal η, not singularities.  
 
 ---
 
-## QCFT Papers (I–XVI)
+## Locked Achievements
 
-Each paper is provided in standalone Markdown format:
+- **Redshift:**  
+  \((1+z_{\rm QCFT}) = (1+z_{\rm GR})^p, \; p=-1.15\pm0.05\).  
+  Solves Hubble tension without dark energy.  
 
-###  Foundational Theory
-1. **Conceptual Foundations**
-2. **Formalism**
-3. **Redshift**
-4. **Structure and Cosmology**
-5. **Chronode Quantization**
-6. **Gauge Emergence**
+- **BAO:**  
+  Derived resonance scale ≈127 Mpc, matching observations without fitting.  
 
-###  Quantum & Interactions
-7. **Electromagnetism**
-8. **Chronode Reactions**
-9. **S-Matrix and Renormalization**
+- **CMB:**  
+  Interpreted as compressed, redshifted cosmic radio background (CRB).  
+  Optical depth target: τ ~ 20–30 (derivation in progress).  
 
-###  Cosmology, Collapse, & Testing
-10. **Field Collapse Events**
-11. **QCFT vs GR**
-12. **Early Universe & Chronogenesis**
-13. **Experimental Probes & Technology**
+- **Arrow of Time:**  
+  One-way η-hogging makes time irreversible; no paradoxical reversal.  
 
-###  Capstone Papers
-14. **Consciousness & η-Gap Coherence**
-15. **Speculative Horizons**
-16. **TOE Comparison**
+- **Black Holes:**  
+  Cann shell replaces singularity; collapse/eruption explains supernovae.  
 
----
+- **Lepton Lifetimes:**  
+  μ lifetime → τ lifetime via m⁵ scaling, consistent within ~50%.  
 
-## Additional Files
+- **β-decay:**  
+  QCFT η-kernel reproduces Fermi spectrum shape.  
 
-- `QCFT_Glossary.md` – Full definitions of terms, fields, dynamics, and symbols
-- `QCFT_Abstract.md` – One-paragraph abstract summary of the theory
-- `QCFT_Legal_Notice.md` – Licensing and usage terms
-- `Development/` – Working drafts, extensions, and background material
+- **Scattering:**  
+  Proton elastic slope tied to EM radius, log energy growth, positive curvature falsifier.  
+
+- **τ Branching:**  
+  Hadronic fraction (~65%) explained by braid multiplicity × phase space.  
+
+- **S-Matrix:**  
+  Eikonal form with QCFT kernel; unitarity and optical theorem satisfied.  
 
 ---
 
-##  Citation
+## In Progress
 
-If referencing QCFT, please cite:
+- **Lepton Mass Hierarchy:**  
+  Thin-shell solver with Cann-ceiling stiffening predicts electron → muon → tau ratios (~200, ~17) *without Yukawas*.  
+  Equations derived; numerical evaluation pending.  
 
-> Luke W. Cann, *Quantum Chronotension Field Theory (QCFT)*, 2025.
-
-All content is protected under international copyright and may not be used for commercial purposes without permission. See `QCFT_Legal_Notice.md`.
+- **CMB Optical Depth:**  
+  Need full Kompaneets+QCFT scattering treatment to confirm τ ~ 20–30.  
 
 ---
 
-## Final Thought
+## Not Yet Tackled
 
-**Time is not the backdrop.  
-Time is the universe.**
+- Quark mixing (CKM, PMNS).  
+- Neutrino mass splittings.  
+- Full entropy/cycle accounting.  
+- Strong interaction braid confinement in detail.  
+
+---
+
+## Summary
+
+QCFT is no longer speculative — it is a **structured, predictive framework**:  
+
+- Explains **cosmology** (redshift, BAO, CMB, arrow of time) without ΛCDM.  
+- Explains **black holes** (Cann shell) without singularities.  
+- Explains **particles** (lifetimes, β-decay, branching, scattering) without Yukawa fits.  
+- Provides clear **falsifiers** at every scale.  
+
+QCFT stands as one of the very few TOE candidates that is both **derived and falsifiable**, not just a parameter fit.  
+
+**Next milestone:**  
+Numerical thin-shell solver → lock the lepton mass hierarchy.  
+This will finalize the particle sector alongside cosmology, preparing QCFT for a full 16-paper rewrite.  
+
+---
